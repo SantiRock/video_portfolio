@@ -1,0 +1,63 @@
+.container {
+    margin-bottom: 33px;
+}
+
+.type {
+    color:rgb(142, 220, 196);
+}
+
+.proyecto {
+    margin-bottom: 13px;
+    width: fit-content;
+    font-size: 13px;
+    line-height: 1.7;
+    cursor: pointer;
+}
+
+.proyecto:hover {
+    color: rgb(142, 220, 196);
+  }
+
+@media screen and (min-width: 374px) {
+    .proyecto {
+      font-size: 14px;
+    } 
+}
+
+.title {
+    margin: 9px 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.7; 
+}
+
+.artista {
+    color:rgb(142, 220, 196);
+}
+
+.list {
+    margin-bottom: 1px;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.ul {
+    margin-bottom: 11px;
+}
+
+.video {
+    margin-bottom: 11px;
+    max-width: 640px;
+}
+
+.obra {
+    font-style: italic;
+    color:rgb(173, 173, 173);
+}

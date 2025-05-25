@@ -1,0 +1,28 @@
+.artista {
+    font-style: italic;
+    color:rgb(148, 207, 189);
+}
+
+.footer{
+    margin-top: auto;
+}
+
+.footer_p {
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
+@media screen and (min-width: 370px) {
+    .footer_p {
+        font-size: 12px;
+    }  
+}
+
+@media screen and (min-width: 390px) {
+    .footer_p {
+        font-size: 13px;
+    }  
+}
+

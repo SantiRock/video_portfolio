@@ -1,0 +1,71 @@
+h1 {
+    margin: 0;
+}
+
+.portafolio {
+    margin-top: 7px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.contact_container {
+    position: relative;
+
+}
+
+.contact {
+    font-size: 13px;
+    margin-top: 9px;
+    margin-bottom: 17px;
+    cursor: pointer;
+}
+
+.tooltipText {
+    display: none;
+    position: absolute;
+    top:13px;
+    left: 5px;
+    padding: 5px 10px;
+    width: fit-content;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+.email:hover {
+    color: rgb(142, 220, 196);
+}
+
+.contact:hover + .tooltipText {
+    display: block;
+}
+
+.contact:hover + .email {
+    color: rgb(142, 220, 196);
+}
+
+.msn {
+    margin-top: 0;
+    margin-bottom: 21px;
+    max-width: 370px ;
+    font-size: 13px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+@media screen and (min-width: 374px){
+    .contact {
+        margin-top: 13px;
+        margin-bottom: 21px;
+        font-size: 14px;
+    }
+    .msn {
+        font-size: 14px;
+        margin-bottom: 23px;
+    }
+    .tooltipText {
+        top: 17px;
+        font-size: 13px;
+    }  
+}

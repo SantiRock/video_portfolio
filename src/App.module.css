@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 21px;
+  padding-bottom: 13px;
+  min-width: 310px;
+  max-width: 1200px;
+  min-height: 100vh;
+}
+
+ul {
+  list-style-type: disc;
+
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 21px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+a {
+  color: rgb(181, 181, 181);
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 1.7;
+}
+
+button {
+  color: rgb(142, 220, 196);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+}
+
+a:hover, h3:hover {
+  color: rgb(142, 220, 196);
+}
+
+
+@media screen and (min-width: 570px) {
+  .container {
+    padding-top: 33px;
+    padding-left: 51px;
+    padding-right: 51px;
+    padding-bottom: 13px;
+  }
+}
+
+
