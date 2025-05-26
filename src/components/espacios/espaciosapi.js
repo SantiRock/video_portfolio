@@ -26,8 +26,8 @@ export const spacesapi = {
             {
                 id: 1,
                 srcset: '',
-                src: './images/spaces/myrys/mm1@2x.jpg',
-                image: './images/spaces/myrys/mm1.jpg',
+                src: '/images/spaces/myrys/mm1@2x.jpg',
+                image: '/images/spaces/myrys/mm1.jpg',
                 alt: 'THSF',
                 credit: ''
             },
@@ -185,7 +185,7 @@ export const spacesapi = {
             {
                 id: 2,
                 srcset: '',
-                src: '/images/spaces/spektrum/s2@2x.jpg',
+                src: './images/spaces/spektrum/s2@2x.jpg',
                 image: '/images/spaces/spektrum/s2.jpg',
                 alt: 'AV Performance',
                 credit: ''

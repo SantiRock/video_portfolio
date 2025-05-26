@@ -112,8 +112,8 @@ export function Images ({obj}) {
               <li class={styles.images_item} key={id} onclick={() => open_Gallery(image, alt, credit, id)}>
                 <img 
                   class={styles.images_itemm}
-                  srcset={srcset}
-                  src={src}
+                  srcset={`.${srcset}`}
+                  src={`.${src}`}
                   alt={alt}
                 />
               </li>
