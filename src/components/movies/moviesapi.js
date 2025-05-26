@@ -94,16 +94,16 @@ export const moviesapi = {
             {
                 id: 1,
                 srcset: '',
-                src: '/images/movies/aguasalada/as1@2x.jpg',
-                image: '/images/movies/aguasalada/as1.jpg',
+                src: './images/movies/aguasalada/as1@2x.jpg',
+                image: './images/movies/aguasalada/as1.jpg',
                 alt: 'fotograma',
                 credit: ''
             },
             {
                 id: 2,
                 srcset: '',
-                src: '/images/movies/aguasalada/as2@2x.jpg',
-                image: '/images/movies/aguasalada/as2.jpg',
+                src: './images/movies/aguasalada/as2@2x.jpg',
+                image: './images/movies/aguasalada/as2.jpg',
                 alt: 'fotograma',
                 credit: ''
             }
@@ -159,24 +159,24 @@ export const moviesapi = {
             {
                 id: 1,
                 srcset: '',
-                src: '/images/movies/andromeda/a1@2x.jpg',
-                image: '/images/movies/andromeda/a1.jpg',
+                src: './images/movies/andromeda/a1@2x.jpg',
+                image: './images/movies/andromeda/a1.jpg',
                 alt: 'fotograma',
                 credit: ''
             },
             {
                 id: 2,
                 srcset: '',
-                src: '/images/movies/andromeda/a2@2x.jpg',
-                image: '/images/movies/andromeda/a2.jpg',
+                src: './images/movies/andromeda/a2@2x.jpg',
+                image: './images/movies/andromeda/a2.jpg',
                 alt: 'fotograma',
                 credit: ''
             },
             {
                 id: 3,
                 srcset: '',
-                src: '/images/movies/andromeda/a3@2x.jpg',
-                image: '/images/movies/andromeda/a3.jpg',
+                src: './images/movies/andromeda/a3@2x.jpg',
+                image: './images/movies/andromeda/a3.jpg',
                 alt: 'fotograma',
                 credit: ''
             },
@@ -412,8 +412,8 @@ export const moviesapi = {
             {
                 id: 1,
                 srcset: '',
-                src: '/images/movies/jattends/ja@2x.jpg',
-                image: '/images/movies/jattends/ja.jpg',
+                src: './images/movies/jattends/ja@2x.jpg',
+                image: './images/movies/jattends/ja.jpg',
                 alt: 'fotograma',
                 credit: 'Tv Bruits'
             },
@@ -464,8 +464,8 @@ export const moviesapi = {
             {
                 id: 1,
                 srcset: '',
-                src: '/images/movies/kinoclaje/k@2x.jpg',
-                image: '/images/movies/kinoclaje/k.jpg',
+                src: './images/movies/kinoclaje/k@2x.jpg',
+                image: './images/movies/kinoclaje/k.jpg',
                 alt: 'Tomasita y el Caimán',
                 credit: ''
             },
