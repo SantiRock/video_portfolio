@@ -6,7 +6,8 @@ import { Images } from "../images/Images";
 function Movie ({obj}) {
   return(
     <div class={styles.container}>
-      <h4 class={styles.title}>{obj.title}</h4>
+      <div  class={styles.pc}>
+              <h4 class={styles.title}>{obj.title}</h4>
       {obj.video && (<div class={styles.video} innerHTML={obj.video}></div>)}
       <p><span class={styles.bold}>Año:</span> {obj.fecha}</p>
       <p><span class={styles.bold}>Lugar:</span> {obj.lugar}</p>
@@ -40,6 +41,9 @@ function Movie ({obj}) {
         </>
       )}
        {obj.images && (<Images obj={obj}/>)}
+
+      </div>
+
     </div>
   )
 }
@@ -47,6 +51,7 @@ function Movie ({obj}) {
 function Kinoclaje () {
   return(
     <div class={styles.container}>
+      <div class={styles.pc}>
       <h4 class={styles.title}>Kinoclaje</h4>
       <div class={styles.video}><div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/6180370?h=4fca2f1c31&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
       <p><span class={styles.bold}>Año:</span> 2005-2008</p>
@@ -67,6 +72,7 @@ function Kinoclaje () {
         <li class={styles.list}><a href="https://kinoclaje.blogspot.com/" target="_blank">Blog</a></li>
       </ul>
       <Images obj={moviesapi.kinoclaje}/>
+      </div>
     </div>
   )
 }
@@ -74,6 +80,7 @@ function Kinoclaje () {
 function Mas () {
   return(
     <div class={styles.container}>
+      <div class={styles.pc}>
       <p><span class={styles.bold}>Proyecto: </span><span class={styles.obra}>El Borracho</span>, videoclip de <span class={styles.artista}>Los Guayabo Borthers</span>, Toulouse, Francia, 2018</p>
       <p style="margin-bottom:13px;"><span class={styles.bold}>Cargo desempeñado:</span> Asistente de producción</p>
       <div class={styles.video}>
@@ -110,6 +117,7 @@ function Mas () {
         </div>
       </div>
       <p>y muchos más ...</p>
+      </div>
     </div>
   )
 }

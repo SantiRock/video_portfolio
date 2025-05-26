@@ -2,6 +2,11 @@
     margin-bottom: 33px;
 }
 
+.pc {
+    background-color: rgb(31, 31, 31);
+    padding: 20px;
+}
+
 .type {
     color:rgb(142, 220, 196);
 }
@@ -12,6 +17,7 @@
     font-size: 13px;
     line-height: 1.7;
     cursor: pointer;
+
 }
 
 .proyecto:hover {

@@ -8,7 +8,8 @@ function CaribeSound () {
 
   return(
     <div class={styles.container}>
-      <h4 class={styles.title}>CaribeSound </h4>
+      <div class={styles.pc}>
+              <h4 class={styles.title}>CaribeSound </h4>
       <p><span class={styles.bold}>Fecha:</span> 22 de Junio de 2019</p>
       <p><span class={styles.bold}>Lugar:</span> Mix'Art Myrys, Toulouse, Francia</p>
       <p><span class={styles.bold}>Cargo desempeñado:</span> Jefe de Proyecto</p>
@@ -37,6 +38,7 @@ function CaribeSound () {
         <li><a href="https://fb.watch/pfkIBV71P4/" target="_blank">Mural por Soma</a></li>
       </ul>
       <Images obj={prodapi.caribesound}/>
+      </div>
     </div>
   )
 }
@@ -44,14 +46,17 @@ function CaribeSound () {
 function MasProd () {
   return(
     <div class={styles.container}>
-         <div class={styles.container}>
+      <div class={styles.container}>
+        <div class={styles.pc}>
         <p><span class={styles.bold}>Proyecto: </span><span class={styles.artista}>6ta Bienal Internacional de Danza de Cali</span></p>
         <p><span class={styles.bold}>Fecha:</span> 9 al 12 de Noviembre de 2023</p>
         <p><span class={styles.bold}>Lugar:</span> Cali, Colombia</p>
         <p><span class={styles.bold}>Cargo desempeñado:</span> Asistencia de producción para Ruth Childs, Crazy Smooth y Dorothée Munyaneza</p>
         <Images obj={prodapi.bienaldedanza} />
+        </div>
      </div>
       <div class={styles.container}>
+        <div class={styles.pc}>
         <p><span class={styles.bold}>Proyecto: </span><span class={styles.artista}>CaribeFemFest Vol5</span></p>
         <p><span class={styles.bold}>Fecha:</span> 26, 27 & 28 de Marzo de 2022</p>
         <p><span class={styles.bold}>Lugar:</span> Plataforma Caníbal, Barranquilla, Colombia</p>
@@ -62,8 +67,10 @@ function MasProd () {
           <li class={styles.list}>Producción: Fundación Matronas</li>
         </ul>
         <Images obj={prodapi.caribefemfest} />
+        </div>
      </div>
      <div class={styles.container}>
+      <div class={styles.pc}>
         <p><span class={styles.bold}>Proyecto: </span>presentación de la obra <span class={styles.artista}>La Itinerancia de la tribú del gitano Melquìadíades</span></p>
         <p><span class={styles.bold}>Fecha:</span> 14 de Marzo de 2020</p>
         <p><span class={styles.bold}>Lugar:</span> Teatro Cenit, Minca, Colombia</p>
@@ -79,7 +86,8 @@ function MasProd () {
         </ul>
         <Images obj={prodapi.teatrocenit} />
         <p>y muchos más ...</p>
-     </div>
+      </div>
+      </div>
     </div>
   )
 }

@@ -6,6 +6,7 @@ import { Images } from "../images/Images";
 function Space ({obj}) {
   return(
     <div class={styles.container}>
+      <div class={styles.pc} >
       <h4 class={styles.title}>{obj.title}</h4>
       <p><span class={styles.bold}>Fecha:</span> {obj.fecha}</p>
       <p><span class={styles.bold}>Lugar:</span> {obj.lugar}</p>
@@ -18,6 +19,10 @@ function Space ({obj}) {
         ))}
       </ul>
       {obj.images && (<Images obj={obj} />)}
+
+
+      </div>
+   
     </div>
   )
 }
